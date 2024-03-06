@@ -25,12 +25,12 @@ cd TAUS
 ```
 need to edit the MakeFile, change the SM_ARCH, NVCC direction, 
 
-## Build
+### Build
 ```shell
 make taus_spmm_test
 ```
 
-## Run
+### Run
 ```shell
 make taus_spmm_test_run_XXX
 ```
