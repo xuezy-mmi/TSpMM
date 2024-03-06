@@ -13,22 +13,22 @@ if __name__ == "__main__":
     #############################directly merge######################################
     #################################################################################
     ##v = 8
-    os.system("cd ../../")
-    os.system("mkdir ../../dlmc-v8")
-    os.system("cd TSpMM/row_reorder/")
-    sparse_matrix_format.generate_CVSE_file("../../dlmc/", "../../dlmc-v8/", 8)
+    # os.system("cd ../")
+    # os.system("mkdir ./dlmc-v8")
+    # os.system("cd ./RowMerge/")
+    sparse_matrix_format.generate_CVSE_file("../dlmc/", "../dlmc-v8/", 8)
     ##v = 16
-    os.system("cd ../../")
-    os.system("mkdir ../../dlmc-v16")
-    os.system("cd TSpMM/row_reorder/")
-    sparse_matrix_format.generate_CVSE_file("../../dlmc/", "../../dlmc-v16/", 16)
+    # os.system("cd ../")
+    # os.system("mkdir ./dlmc-v16")
+    # os.system("cd cd ./RowMerge/")
+    sparse_matrix_format.generate_CVSE_file("../dlmc/", "../dlmc-v16/", 16)
     #################################################################################
     #################################################################################
     #################################################################################
     print('Start Reorder Matrices...\n\n')
-    new_file_name = "../../dataset-v8/"
-    datapath_dir = "../../dlmc/transformer_matrices.txt"
-    dataset_dir = "../../dlmc/"
+    new_file_name = "../dataset-v8/"
+    datapath_dir = "../dlmc/transformer_matrices.txt"
+    dataset_dir = "../dlmc/"
 
     matrices_paths, file_num = reorder.read_files(datapath_dir, dataset_dir)
     print(file_num)
@@ -75,7 +75,7 @@ if __name__ == "__main__":
         writer.writerow(this_csv_row)
     f.close()
     
-    new_file_name1 = "../../dataset-v16/"
+    new_file_name1 = "../dataset-v16/"
     
     header1 = ["NO.", "ROW", "COL", "NNZ", "cnt0-16", "cnt1-16",  "new_sparsity_ratio1", "new_sparsity_ratio2"]
     f1 = open('./csv_data/all-zero_col_num_16.csv', 'w')
