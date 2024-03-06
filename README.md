@@ -4,6 +4,7 @@ poroject of TAUS
 ```shell
 g++-7.5.0
 cuda-11.8
+sputnik
 ```
 
 ## Get Dataset
