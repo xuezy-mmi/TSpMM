@@ -27,7 +27,8 @@ wait about 6hours
 ```shell
 cd TAUS
 ```
-need to edit the MakeFile, change the SM_ARCH, NVCC direction, 
+need to edit the MakeFile, change the SM_ARCH, NVCC direction.
+change the dlmc dir in XXX.cpp
 
 ### Build
 ```shell
