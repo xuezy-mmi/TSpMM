@@ -15,12 +15,12 @@ if __name__ == "__main__":
     ##v = 8
     os.system("cd ../../")
     os.system("mkdir ../../dlmc-v8")
-    os.system("cd TSpMM/row_reorder/")
+    os.system("cd TSpMM/RowMerge/")
     sparse_matrix_format.generate_CVSE_file("../../dlmc/", "../../dlmc-v8/", 8)
     ##v = 16
     os.system("cd ../../")
     os.system("mkdir ../../dlmc-v16")
-    os.system("cd TSpMM/row_reorder/")
+    os.system("cd TSpMM/RowMerge/")
     sparse_matrix_format.generate_CVSE_file("../../dlmc/", "../../dlmc-v16/", 16)
     #################################################################################
     #################################################################################
