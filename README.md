@@ -8,13 +8,15 @@ cuda-11.8
 
 ## Get Dataset
 ```shell
-cd ..
+
 wget https://storage.googleapis.com/sgk-sc2020/dlmc.tar.gz
 tar -xvf dlmc.tar.gz
 rm dlmc.tar.gz
-cd TSpMM
+cd RowMerge
+bash mkdir.sh
+python rowmerge.py
 ```
-
+wait about 6hours
 ## TAUS
 
 ```shell
