@@ -290,9 +290,9 @@ if __name__ == '__main__':
     print('Start Processing Matrices...\n\n')
     
     
-    new_file_name = "../../dataset-v8/"
-    datapath_dir = "../../dlmc/transformer_matrices.txt"
-    dataset_dir = "../../dlmc/"
+    new_file_name = "../dataset-v8/"
+    datapath_dir = "../dlmc/transformer_matrices.txt"
+    dataset_dir = "../dlmc/"
     # a, b, c = Processing_Matrices_Transformer(root_dir, 1, 8)
 
     matrices_paths, file_num = read_files(datapath_dir, dataset_dir)
