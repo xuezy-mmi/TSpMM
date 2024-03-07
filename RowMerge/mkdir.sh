@@ -1,5 +1,4 @@
 cd ../
-
 mkdir dlmc-v8
 cd dlmc-v8
 mkdir transformer
@@ -41,7 +40,6 @@ mkdir 0.9
 mkdir 0.95
 mkdir 0.98
 cd ../../../
-
 mkdir dlmc-v16
 cd dlmc-v16
 mkdir transformer
@@ -83,7 +81,6 @@ mkdir 0.9
 mkdir 0.95
 mkdir 0.98
 cd ../../../
-
 mkdir dataset-v8
 cd dataset-v8
 mkdir transformer
@@ -125,7 +122,6 @@ mkdir 0.9
 mkdir 0.95
 mkdir 0.98
 cd ../../../
-
 mkdir dataset-v16
 cd dataset-v16
 mkdir transformer
