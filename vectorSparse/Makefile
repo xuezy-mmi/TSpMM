@@ -1,6 +1,6 @@
 NVCC = /usr/local/cuda/bin/nvcc # change your nvcc direction
 SPUTNIK_PATH = /home/xuezeyu/sputnik # change your sputnik direction
-NVCC_FLAGS = -std=c++11 -arch=sm_89 -lineinfo -lcublas -lcusparse -I${SPUTNIK_PATH} --ptxas-options=-v
+NVCC_FLAGS = -std=c++11 -arch=sm_89 -lineinfo -lcublas -lcusparse -I${SPUTNIK_PATH} --ptxas-options=-v # change your SM_ARCH
 
 ##################################################################
 
