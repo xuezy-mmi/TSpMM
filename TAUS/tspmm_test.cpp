@@ -272,28 +272,28 @@ int main(int argc, char **argv){
             std::string benchmark;
             if(rowmerge == 1){
                 if(vec_length == 8){
-                    benchmark = "/home/xuezeyu/dlmc-v8/";
+                    benchmark = "../dlmc-v8/";
                 }
                 else if(vec_length == 16){
-                    benchmark = "/home/xuezeyu/dlmc-v16/";
+                    benchmark = "../dlmc-v16/";
                 }
                 else{
-                    benchmark = "/home/xuezeyu/dlmc/";
+                    benchmark = "../dlmc/";
                 }
             }
             if(rowmerge == 2){
                 if(vec_length == 8){
-                    benchmark = "/home/xuezeyu/dataset-v8/";
+                    benchmark = "../dataset-v8/";
                 }
                 else if(vec_length == 16){
-                    benchmark = "/home/xuezeyu/dataset-v16/";
+                    benchmark = "../dataset-v16/";
                 }
                 else{
-                    benchmark = "/home/xuezeyu/dlmc/";
+                    benchmark = "../dlmc/";
                 }
             }
             else{
-                benchmark = "/home/xuezeyu/dlmc/";
+                benchmark = "../dlmc/";
             }
 
             benchmark = benchmark + line;
