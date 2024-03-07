@@ -1,5 +1,5 @@
-NVCC = /usr/local/cuda/bin/nvcc
-SPUTNIK_PATH = /home/xuezeyu/sputnik
+NVCC = /usr/local/cuda/bin/nvcc # change your nvcc direction
+SPUTNIK_PATH = /home/xuezeyu/sputnik # change your sputnik direction
 NVCC_FLAGS = -std=c++11 -arch=sm_89 -lineinfo -lcublas -lcusparse -I${SPUTNIK_PATH} --ptxas-options=-v
 
 ##################################################################
@@ -16,7 +16,7 @@ OBJ_DIR = bin
 INC_DIR = include
 
 # Library directory
-LIB_DIR = /usr/local/cuda/lib64
+# LIB_DIR = /usr/local/cuda/lib64
 SPUTNIK_DIR = ${SPUTNIK_PATH}/build/sputnik
 
 #output directory
