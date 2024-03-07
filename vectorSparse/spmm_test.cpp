@@ -577,7 +577,7 @@ int main(int argc, char **argv){
     while (std::getline(infile, line)){
 
         std::string benchmark;
-        benchmark = "/home/xuezeyu/dlmc/";
+        benchmark = "../dlmc/";
         
         benchmark = benchmark + line;
         //printf("path: %s\n", line);
