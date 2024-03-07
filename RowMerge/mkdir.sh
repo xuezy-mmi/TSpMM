@@ -40,7 +40,7 @@ mkdir 0.8
 mkdir 0.9
 mkdir 0.95
 mkdir 0.98
-cd ../../
+cd ../../../
 
 mkdir dlmc-v16
 cd dlmc-v16
@@ -82,7 +82,7 @@ mkdir 0.8
 mkdir 0.9
 mkdir 0.95
 mkdir 0.98
-cd ../../
+cd ../../../
 
 mkdir dataset-v8
 cd dataset-v8
@@ -124,7 +124,7 @@ mkdir 0.8
 mkdir 0.9
 mkdir 0.95
 mkdir 0.98
-cd ../../
+cd ../../../
 
 mkdir dataset-v16
 cd dataset-v16
