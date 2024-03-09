@@ -31,6 +31,7 @@ need to edit the MakeFile, change the SM_ARCH, NVCC direction.
 ### Build
 ```shell
 make taus_spmm_test
+make tspmm_test
 ```
 ### Run
 ```shell
