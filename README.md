@@ -22,19 +22,23 @@ bash mkdir.sh
 python rowmerge.py
 ```
 wait about 6hours
+IF you don't want to wait, you can download the data(dlmc-v8, dlmc-v16, dataset-v8, dataset-v16) from https://github.com/xuezy-mmi/dlmc.git.
 ## TAUS
 
 ```shell
 cd TAUS
 ```
-need to edit the MakeFile, change the SM_ARCH, NVCC direction.
-change the dlmc dir in XXX.cpp
+need to edit the MakeFile, change the SM_ARCH, NVCC direction and your Sputnik direction.
 
 ### Build
 ```shell
 make taus_spmm_test
 ```
 
+### Run
+```shell
+bash ./run.sh
+```
 
 
 ### Run
