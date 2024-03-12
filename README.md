@@ -30,25 +30,25 @@ IF you don't want to wait, you can download the data(dlmc-v8, dlmc-v16, dataset-
 cd TAUS
 ```
 need to edit the MakeFile, change the SM_ARCH, NVCC direction.
-### Build
+### Build and Run
+You need to change the NVCC direction in "Makefile_xxx".
+We have 4 shell script files, aimed to run on different GPU architectures.
+xxx depends on your GPU architexture. xxx includes volta, turing, ampere, ada.
 ```shell
-make taus_spmm_test
-make tspmm_test
+bash ./run_xxx.sh
 ```
-### Run
+After programming executing, some csv files will be generated in ./data/. You need to cpoy them to ../plt/ for plot figures.
 ```shell
-bash ./run.sh
+cp ./data/* ../plt/
 ```
+
 ## Baseline
 ```shell
 cd vectorsparse
 ```
-need to edit the MakeFile, change the SM_ARCH, NVCC direction and your Sputnik direction.
-### Build
+need to edit "the MakeFile_xxx", change the NVCC direction and your Sputnik direction.
+### Build and Run
 ```shell
-make spmm_test
+bash ./run_baseline_xxx.sh
 ```
-### Run
-```shell
-bash ./run.sh
-```
+
